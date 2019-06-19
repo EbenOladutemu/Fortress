@@ -1,0 +1,58 @@
+.fortress-font{
+	font-size: 34px;
+	font-family: 'calibri';
+	font-weight: 1000;
+	text-transform: none;
+	letter-spacing: 0px;
+	line-height: normal;
+}
+.fortress-font-2{
+	font-size: 21px;
+	font-weight: 100;
+
+}
+@media(max-width: 991px){
+	.screen-adj{
+		display: none;
+	}
+}
+.outln{
+	outline-color: #6cbd4e!important;
+}
+.live-btn{
+	background: #6dbd4e!important;
+	color: #fff!important;
+	border-radius: 4px!important;
+}
+a:hover .btn:hover .live-btn{
+	background:transparent!important;
+}
+/*.owl-prev{
+	margin-left: -200px!important;
+}*/
+.nav-link{
+	padding-right: 15px!important;
+	padding-left: 15px!important;
+}
+.text-bold{
+	font-weight: bold!important;
+}
+a:hover{
+	color: #6dbd4e!important;
+}
+li:hover{
+	color: #6dbd4e!important;
+}
+.border-tr-download{
+	border-top-right-radius: 8px;
+}
+.no-resize{
+	resize: none;
+}
+.rotate--90{
+	transform: rotate(-90deg);
+}
+.pad-left-right-15{
+	padding-left: 15px;
+	padding-right: 15px;
+}
