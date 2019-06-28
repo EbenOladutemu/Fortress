@@ -1,13 +1,17 @@
 .fortress-font{
-	font-size: 34px;
+	font-size: 30px;
 	font-family: 'calibri';
 	font-weight: 1000;
 	text-transform: none;
 	letter-spacing: 0px;
 	line-height: normal;
 }
+.img-width-height{
+	width: 58px;
+	height: 57px;
+}
 .fortress-font-2{
-	font-size: 21px;
+	font-size: 19px;
 	font-weight: 100;
 
 }
@@ -55,4 +59,24 @@ li:hover{
 .pad-left-right-15{
 	padding-left: 15px;
 	padding-right: 15px;
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.owl-stage-outer{
+	height: 500px!important;
+}
+.block-30{
+	background-color: #fff!important;
+}
+.block-31{
+	height: 457px;
+}
+.owl-dots{
+	display: none;
 }

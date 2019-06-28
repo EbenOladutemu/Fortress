@@ -2510,7 +2510,7 @@ input[type="button"].btn-block {
 
 .dropdown-menu {
   position: absolute;
-  top: 100%;
+  top: 60%;
   left: 0;
   z-index: 1000;
   display: none;
@@ -3252,7 +3252,7 @@ input[type="button"].btn-block {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem; }
+  padding: 0.2rem 1rem; }
   .navbar > .container,
   .navbar > .container-fluid {
     display: -webkit-box;
@@ -7760,7 +7760,7 @@ textarea.form-control {
     margin-bottom: 40px;
     letter-spacing: .1em;
     color: #fff !important;
-    font-family: "Gaegu", cursive; }
+    font-family: "Poppins", cursive; }
   .footer .block-21 .heading a {
     color: #fff !important; }
     .footer .block-21 .heading a:hover {
@@ -8641,7 +8641,7 @@ textarea.form-control {
 
 .block-31 .owl-dots {
   position: absolute;
-  bottom: 100px;
+  bottom: 220px;
   right: 50px; }
   .block-31 .owl-dots .owl-dot {
     float: left;
@@ -8662,7 +8662,7 @@ textarea.form-control {
     .block-30 {
       background-position: center center !important; } }
   .block-30:before {
-    background: #000;
+    background: #fff;
     position: absolute;
     content: "";
     top: 0;
@@ -8674,8 +8674,8 @@ textarea.form-control {
   .block-30.no-overlay:before {
     display: none; }
   .block-30, .block-30 .row {
-    min-height: 700px;
-    height: 100vh; }
+    min-height: 500px;
+    height: 70vh; }
   .block-30 .subheading-sm {
     margin-bottom: 30px;
     color: #fff;
@@ -8701,13 +8701,13 @@ textarea.form-control {
     font-size: 40px;
     line-height: 1.1;
     margin-bottom: 50px;
-    font-family: "Gaegu", cursive; }
+    font-family: "Poppins", cursive; }
     @media (min-width: 768px) {
       .block-30 .heading {
         font-size: 180px; } }
     @media (min-width: 992px) {
       .block-30 .heading {
-        font-size: 100px; } }
+        font-size: 40px; } }
   .block-30 .btn {
     background: #fff;
     border-radius: 0;

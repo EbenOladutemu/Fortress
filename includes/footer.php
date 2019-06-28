@@ -4,11 +4,9 @@
       <div class="row mb-5">
         <div class="col-md-6 col-lg-4">
           <h3 class="heading-section">About Us</h3>
-          <p class="mb-5">We are training, equipping and mobilising men to discover, develop and deploy their graces to fulfil God’s agenda for their lives. We are committed to the teaching and practice of God’s present truth in its progressive state. Our ultimate dream is to make ready a people prepared for the Lord.<br>
-
-          
+          <p class="mb-5">We are training, equipping and mobilising men to discover, develop and deploy their graces to fulfil God’s agenda for their lives. We are committed to the teaching and practice of God’s present truth in its progressive state. Our ultimate dream is to make ready a people prepared for the Lord.<br>          
           </p>
-          <p><a href="#" class="btn btn-primary px-4 py-3">Join The Workforce</a></p>
+          <p><a href="workforce" class="btn btn-primary px-4 py-3">Workforce</a></p>
         </div>
         <div class="col-md-6 col-lg-4">
           <h3 class="heading-section">Elixir of Life</h3>
@@ -91,9 +89,7 @@
       <div class="row pt-5">
         <div class="col-md-12 text-center">
           <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             The Fortress Int'l Church &copy;<script>document.write(new Date().getFullYear());</script>. All rights reserved. | Developed with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://eben.com.ng" target="_blank" class="text-primary" title="Ebenezer Oladutemu">Eben</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
           </p>
         </div>
       </div>
@@ -122,7 +118,6 @@
   
   <script src="js/aos.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNyzBbwa4Rf3rdTkihYMSxLePJDePGo_c&callback=initMap"></script>
   <!-- <script src="js/google-map.js"></script> -->
   <script src="js/main.js"></script>
   <script src="js/vue.js"></script>

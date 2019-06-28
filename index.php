@@ -13,7 +13,7 @@
               <h3 class="heading">Welcome</h3>
               <p>It's not out of place this days to hear that folks are sick and tired of church and everything it
                 represents. However it is not also out of place to tell you, there is a church you can indeed call home.
-                The Fortress Int&#8217;l Church, here We teach and train you to Discover,  Develop and Deploy your God given abilities to fulfil your God ordained Destiny. With our arms wide open we welcome you and would be willing to be of help to you in whatever way we can. Hear this, with us it can not get worst, it will only get better.
+                At The Fortress Int&#8217;l Church, here we teach and train you to Discover,  Develop and Deploy your God given abilities to fulfil your God ordained Destiny. With our arms wide open, we welcome you and would be willing to be of help to you in whatever way we can. Hear this, with us it can not get worse, it will only get better.
               </p>
               <p><a href="about">Learn More</a></p>
             </div>

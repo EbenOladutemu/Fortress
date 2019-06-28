@@ -30,5 +30,6 @@
       </div>
     </div>
   </div>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNyzBbwa4Rf3rdTkihYMSxLePJDePGo_c&callback=initMap"></script>
 
 <?php include 'includes/footer.php';?>

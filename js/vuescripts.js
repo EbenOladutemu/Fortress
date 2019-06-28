@@ -3,9 +3,11 @@ Vue.component('heading-tag',{
 	template:
 		 `<section class="container">
         <div class="row align-items-center">
+          <div class="col-md-8" style="padding-top:230px">
+            <h3 class="heading">We are Bringing Divinity to Humanity</h3>  
+          </div>
           <div class="col-md-8">
-            <h3 class="heading" style="font-size:95px">We are Bringing Divinity to Humanity</h3>
-            <p><a href="#" class="btn btn-primary btn-hover-white py-3 px-5 live-btn">Join Our Live Service</a></p>
+            <a href="#" class="btn btn-primary btn-hover-white py-3 px-5 live-btn">Join Our Live Service</a>
           </div>
         </div>
       </section>`
@@ -126,3 +128,26 @@ new Vue({el:'#heading-component-29'});
 new Vue({el:'#heading-component-30'});
 // new Vue({el:'#heading-component-31'});
 // new Vue({el:'#heading-component-32'});
+
+//Heading Workforce
+Vue.component('heading-tag-9',{
+  template:
+     `<section class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-7 text-center">
+            <h2 class="heading font-adj">Workforce</h2>
+          </div>
+        </div>
+      </section>`
+});
+new Vue({el:'#heading-component-33'});
+new Vue({el:'#heading-component-34'});
+new Vue({el:'#heading-component-35'});
+new Vue({el:'#heading-component-36'});
+
+var fortress = new Vue({
+  el: '#uList',
+  data:{
+    textBold: ''
+  }
+});
