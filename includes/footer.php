@@ -88,8 +88,8 @@
       </div>
       <div class="row pt-5">
         <div class="col-md-12 text-center">
-          <p>
-            The Fortress Int'l Church &copy;<script>document.write(new Date().getFullYear());</script>. All rights reserved. | Developed with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://eben.com.ng" target="_blank" class="text-primary" title="Ebenezer Oladutemu">Eben</a>
+          <p id="para">
+            The Fortress Int'l Church &copy;<script>document.write(new Date().getFullYear());</script>. All rights reserved. | Developed with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://eben.com.ng" target="_blank" class="text-primary" title="Ebenezer Oladutemu" style="color: #6dbd4e!important">Eben</a>
           </p>
         </div>
       </div>
@@ -115,13 +115,12 @@
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/bootstrap-datepicker.js"></script>
-  
   <script src="js/aos.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
   <!-- <script src="js/google-map.js"></script> -->
   <script src="js/main.js"></script>
   <script src="js/vue.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
 
   <script src="js/vuescripts.js"></script>
   <script type="text/javascript">
@@ -148,7 +147,7 @@
           title: 'Hello World!'
         });  
       }
-    </script>
+  </script>
     
   </body>
 </html>

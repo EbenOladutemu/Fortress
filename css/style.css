@@ -2510,7 +2510,7 @@ input[type="button"].btn-block {
 
 .dropdown-menu {
   position: absolute;
-  top: 60%;
+  top: 78%;
   left: 0;
   z-index: 1000;
   display: none;
@@ -7752,7 +7752,7 @@ textarea.form-control {
 
 .footer {
   background: #404040;
-  padding: 8em 0;
+  padding: 1em 0;
   color: #fff; }
   .footer .heading-section {
     font-size: 20px;
@@ -8704,7 +8704,7 @@ textarea.form-control {
     font-family: "Poppins", cursive; }
     @media (min-width: 768px) {
       .block-30 .heading {
-        font-size: 180px; } }
+        /*font-size: 180px;*/ } }
     @media (min-width: 992px) {
       .block-30 .heading {
         font-size: 40px; } }

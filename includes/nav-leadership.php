@@ -23,7 +23,16 @@
           </div>
         </li>
         <li class="nav-item active"><a href="#" class="nav-link">Leadership</a></li>
-        <li class="nav-item"><a href="messages" class="nav-link">Messages</a></li>
+        <li class="dropdown show nav-item">
+          <a class="dropdown-toggle nav-link" href="" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Resources
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="messages">Messages</a>
+            <a class="dropdown-item" href="articles">Articles & e-Books</a>
+          </div>
+        </li>
         <li class="nav-item"><a href="contact" class="nav-link">Contact Us</a></li>
         <li class="nav-item"><a href="support" class="nav-link">Support</a></li>
         <li class="nav-item"><a href="devotional" class="nav-link">Elixir of Life</a></li>

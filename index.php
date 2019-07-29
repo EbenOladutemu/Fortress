@@ -15,7 +15,7 @@
                 represents. However it is not also out of place to tell you, there is a church you can indeed call home.
                 At The Fortress Int&#8217;l Church, here we teach and train you to Discover,  Develop and Deploy your God given abilities to fulfil your God ordained Destiny. With our arms wide open, we welcome you and would be willing to be of help to you in whatever way we can. Hear this, with us it can not get worse, it will only get better.
               </p>
-              <p><a href="about">Learn More</a></p>
+              <p style="font-size:30px"><a href="about">Learn More</a></p>
             </div>
           </div>     
         </div>
@@ -54,6 +54,16 @@
         </div> -->
 
       </div>
+      <!-- <div class="row" data-capture=".input-group, .datepicker">
+            <div class="col-sm-offset-4 col-sm-3">
+                <div class="input-group date">
+                    <input type="text" class="form-control" value="07-19-2019">
+                    <div class="input-group-addon">
+                        <span class="input-group-text"><i class="fas fa-th"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div> -->
     </div>
   </div> <!-- .site-section -->
 

@@ -65,7 +65,7 @@
         </div>
 
         <div class="col-md-4">
-          <a href="img/Random/20190512103509__MG_8381.jpg" class="image-popup img-hover">
+          <a href="img/Random/20190609121838__MG_9606.jpg" class="image-popup img-hover">
             <span class="icon icon-search"></span>
             <img src="img/Random/20190609121838__MG_9606.jpg" alt="The Fortress Int'l Church" class="img-fluid">
           </a>

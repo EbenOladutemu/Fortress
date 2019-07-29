@@ -68,6 +68,16 @@ li:hover{
   /*Without this, clicking will make it sticky*/
     pointer-events: none;
 }
+.dropdown> .dropdown-menu:before {
+    content: '';
+    border-bottom: 10px solid #d2d1d1;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: absolute;
+    left: 15px;
+    top: -10px;
+}
+
 .owl-stage-outer{
 	height: 500px!important;
 }
@@ -79,4 +89,27 @@ li:hover{
 }
 .owl-dots{
 	display: none;
+}
+@media(min-height: 696px){
+	.block-30, .block-30 .row {
+		height: 35vh;
+	}
+}
+
+/* PANEL +/- */
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+.panel-title > a:before {
+    float: right !important;
+    font-family: FontAwesome;
+    content:"\f068";
+    padding-right: 5px;
+}
+.panel-title > a.collapsed:before {
+    float: right !important;
+    content:"\f067";
+}
+.panel-title > a:hover, 
+.panel-title > a:active, 
+.panel-title > a:focus  {
+    text-decoration:none;
 }

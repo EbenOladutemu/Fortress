@@ -13,12 +13,9 @@ Vue.component('heading-tag',{
       </section>`
 })
 new Vue({el:'#heading-component'});
-new Vue({el:'#heading-component-2'});
-new Vue({el:'#heading-component-3'});
-new Vue({el:'#heading-component-4'});
 
 // Heading About
-Vue.component('heading-tag-2',{
+Vue.component('heading-tag',{
 	template:
 		 `<section class="container">
         <div class="row align-items-center justify-content-center">
@@ -28,13 +25,10 @@ Vue.component('heading-tag-2',{
         </div>
       </section>`
 })
-new Vue({el:'#heading-component-5'});
-new Vue({el:'#heading-component-6'});
-new Vue({el:'#heading-component-7'});
-//new Vue({el:'#heading-component-8'});
+new Vue({el:'#heading-component-2'});
 
 // Heading Leadership
-Vue.component('heading-tag-3',{
+Vue.component('heading-tag',{
   template:
      `<section class="container">
         <div class="row align-items-center justify-content-center">
@@ -44,13 +38,10 @@ Vue.component('heading-tag-3',{
         </div>
       </section>`
 });
-new Vue({el:'#heading-component-9'});
-new Vue({el:'#heading-component-10'});
-new Vue({el:'#heading-component-11'});
-//new Vue({el:'#heading-component-12'});
+new Vue({el:'#heading-component-3'});
 
 // Heading Messages
-Vue.component('heading-tag-4',{
+Vue.component('heading-tag',{
   template:
      `<section class="container">
         <div class="row align-items-center justify-content-center">
@@ -60,13 +51,10 @@ Vue.component('heading-tag-4',{
         </div>
       </section>`
 });
-new Vue({el:'#heading-component-13'});
-new Vue({el:'#heading-component-14'});
-//new Vue({el:'#heading-component-15'});
-//new Vue({el:'#heading-component-16'});
+new Vue({el:'#heading-component-4'});
 
 // Heading Contact
-Vue.component('heading-tag-5',{
+Vue.component('heading-tag',{
   template:
      `<section class="container">
         <div class="row align-items-center justify-content-center">
@@ -76,13 +64,10 @@ Vue.component('heading-tag-5',{
         </div>
       </section>`
 });
-new Vue({el:'#heading-component-17'});
-// new Vue({el:'#heading-component-18'});
-// new Vue({el:'#heading-component-19'});
-// new Vue({el:'#heading-component-20'});
+new Vue({el:'#heading-component-5'});
 
 // Heading Support
-Vue.component('heading-tag-6',{
+Vue.component('heading-tag',{
   template:
      `<section class="container">
         <div class="row align-items-center justify-content-center">
@@ -92,13 +77,10 @@ Vue.component('heading-tag-6',{
         </div>
       </section>`
 });
-new Vue({el:'#heading-component-21'});
-new Vue({el:'#heading-component-22'});
-//new Vue({el:'#heading-component-23'});
-//new Vue({el:'#heading-component-24'});
+new Vue({el:'#heading-component-6'});
 
 // Heading Elixir
-Vue.component('heading-tag-7',{
+Vue.component('heading-tag',{
   template:
      `<section class="container">
         <div class="row align-items-center justify-content-center">
@@ -108,13 +90,10 @@ Vue.component('heading-tag-7',{
         </div>
       </section>`
 });
-new Vue({el:'#heading-component-25'});
-new Vue({el:'#heading-component-26'});
-new Vue({el:'#heading-component-27'});
-new Vue({el:'#heading-component-28'});
+new Vue({el:'#heading-component-7'});
 
 // Heading Gallery
-Vue.component('heading-tag-8',{
+Vue.component('heading-tag',{
   template:
      `<section class="container">
         <div class="row align-items-center justify-content-center">
@@ -124,13 +103,10 @@ Vue.component('heading-tag-8',{
         </div>
       </section>`
 });
-new Vue({el:'#heading-component-29'});
-new Vue({el:'#heading-component-30'});
-// new Vue({el:'#heading-component-31'});
-// new Vue({el:'#heading-component-32'});
+new Vue({el:'#heading-component-8'});
 
 //Heading Workforce
-Vue.component('heading-tag-9',{
+Vue.component('heading-tag',{
   template:
      `<section class="container">
         <div class="row align-items-center justify-content-center">
@@ -140,10 +116,20 @@ Vue.component('heading-tag-9',{
         </div>
       </section>`
 });
-new Vue({el:'#heading-component-33'});
-new Vue({el:'#heading-component-34'});
-new Vue({el:'#heading-component-35'});
-new Vue({el:'#heading-component-36'});
+new Vue({el:'#heading-component-9'});
+
+//Heading Articles & e-Books
+Vue.component('heading-tag',{
+  template:
+     `<section class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-7 text-center">
+            <h2 class="heading font-adj">Articles & e-Books</h2>
+          </div>
+        </div>
+      </section>`
+});
+new Vue({el:'#heading-component-10'});
 
 var fortress = new Vue({
   el: '#uList',
