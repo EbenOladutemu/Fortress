@@ -24,7 +24,7 @@
         </li>
         <li class="nav-item"><a href="leadership" class="nav-link">Leadership</a></li>
         <li class="dropdown show nav-item">
-          <a class="dropdown-toggle nav-link" href="" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="dropdown-toggle nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Resources
           </a>
 

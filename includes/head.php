@@ -5,37 +5,37 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- <meta http-equiv="refresh" content="3"> -->
-    <meta name="description" content="">
+    <meta name="description" content="We are bringing divinity to humanity">
     <meta name="keywords" content="">
     <meta name="image" content="">
     <meta name="url" content="">
 
     <!-- Schema.org for Google -->
     <meta itemprop="name" content="">
-    <meta itemprop="description" content="">
+    <meta itemprop="description" content="We are bringing divinity to humanity">
     <meta itemprop="image" content="">
     <meta itemprop="url" content="">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="">
+    <meta name="twitter:title" content="The Fortress International Church">
     <meta name="twitter:url" content="">
-    <meta name="twitter:description" content="">
+    <meta name="twitter:description" content="We are bringing divinity to humanity">
     <meta name="twitter:site" content="">
     <meta name="twitter:creator" content="">
     <meta name="twitter:image:src" content="">
 
     <!-- Twitter - Product (e-commerce) -->
     <!-- Open Graph general (Facebook, Pinterest & Google+) -->
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta property="og:title" content="The Fortress International Church">
+    <meta property="og:description" content="We are bringing divinity to humanity">
     <meta property="og:image" content="">
     <meta property="og:url" content="">
     <meta property="og:site_name" content="">
     <meta property="og:locale" content="">
     <meta property="og:type" content="">
     
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500|Poppins:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:300,400,500|Poppins:700" rel="stylesheet">
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">

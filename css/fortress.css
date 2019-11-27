@@ -28,6 +28,12 @@
 	color: #fff!important;
 	border-radius: 4px!important;
 }
+.new-btn{
+	background: transparent!important;
+  border: solid white 2px!important;
+  border-radius: 5px!important;
+  color: white!important;
+}
 a:hover .btn:hover .live-btn{
 	background:transparent!important;
 }
@@ -47,8 +53,8 @@ a:hover{
 li:hover{
 	color: #6dbd4e!important;
 }
-.border-tr-download{
-	border-top-right-radius: 8px;
+.border-tl-download{
+	border-top-left-radius: 8px;
 }
 .no-resize{
 	resize: none;
@@ -95,21 +101,21 @@ li:hover{
 		height: 35vh;
 	}
 }
+.pull-right{
+	float: right;
+}
+.mt-5px{
+	margin-top: 5px
+}
 
-/* PANEL +/- */
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
-.panel-title > a:before {
-    float: right !important;
-    font-family: FontAwesome;
-    content:"\f068";
-    padding-right: 5px;
-}
-.panel-title > a.collapsed:before {
-    float: right !important;
-    content:"\f067";
-}
-.panel-title > a:hover, 
-.panel-title > a:active, 
-.panel-title > a:focus  {
-    text-decoration:none;
+.overlay-header:before{
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:31.9em;
+  display: block;
+  z-index:0;
+  background-color: rgba(0,0,0,1);
 }

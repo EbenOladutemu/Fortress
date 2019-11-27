@@ -2,8 +2,17 @@
 <?php include 'includes/head.php';?>
 <?php include 'includes/nav-leadership.php';?>
 <?php include 'includes/heading-leadership.php';?>
+
+<style>
+.featured-donate p, .featured-section p, h2 {
+  color: #000;
+}
+.featured-donate h2, .featured-section h2 {
+  color: #000;
+}
+</style>
 	
-	<div class="featured-donate overlay-color" style="background-image: url('img/Pst-Desmond/IMG_2738.jpg');">
+	<div class="featured-donate">
     
     <div class="container">
       <div class="row">
@@ -11,7 +20,7 @@
           <img src="img/Pst-Desmond/20190203093820__MG_5940.jpg" alt="Desmond Oladimeji " class="img-fluid">
         </div>
         <div class="col-lg-6 pr-lg-5">
-          <span class="featured-text mb-3 d-block">Meet our Lead Pastor</span>
+          <span class="mb-3 d-block">Meet our Lead Pastor</span>
           <h2>Desmond Oladimeji</h2>
           <p class="mb-3">Pastor Desmond Oladimeji an Apostle by calling, a passionate preacher, poet, author and conference speaker. He has a remarkable gift of touching deeply the heart of those who need to hear the truth in practical term laced with amazing humour. He operates in the apostolic and has an apostolic insight into the supernatural, with miracles attending to his meetings.</p>
           <p class="mb-3">He is a graduate of History and International Relations. Adekunle Ajasin University, Ondo State. He met the Lord as a teenager and started ministry quite early. He pioneered a campus church in the year 2000, which he pastored for five years before he left the University. He held diverse leadership positions in the Joint Christian Campus Fellowship in his days in the university. He also led the JCCF  as their President in his final year. In his NYSC days, he was part of the Nigerian Christian Corpers Fellowship. He served as the Bible study Secretary in Ebonyi State. </p>
@@ -24,16 +33,16 @@
 
   </div>
 
-  <div class="featured-section overlay-color-2" style="background-image: url('img/Pst-Jumoke/20190526111613__MG_8937.jpg');">
+  <div class="featured-section">
     
     <div class="container">
       <div class="row">
 
-        <div class="col-md-7">
+        <div class="col-lg-6 col-md-7">
           <img src="img/Pst-Jumoke/20190210144805__MG_6299.jpg" alt="Jumoke Desmond Oladimeji " class="img-fluid">
         </div>
 
-        <div class="col-lg-6 pr-md-5">
+        <div class="col-lg-6 col-md-4">
           <h2>Jumoke Desmond Oladimeji </h2>
           <p class="mb-3">Pastor Jumoke Desmond Oladimeji is the Co-Pastor of The Fortress International Church. She is married to the Lead Pastor. She is very passionate about serving God and lives to see people saved and brought to the marvelous light of the glorious gospel of Christ. She sits as the Church Administrator and the head of Family and Marriage Ministry. She teaches the word with unusual calmness, peculiar aptness and disarming simplicity. Great grace attends to her life and teachings. She peculiarly ministers with some accurate prophetic insight and visions.</p>
           <p class="mb-3">Pastor Jummy as she is fondly called, holds a degree in Sociology from Adekunle Ajasin University Ondo State. She has put in about twelve years into diverse professional practice ranging from Customers Care Executive, to her stint in the Internal Control and Audit in a leading Insurance company. She presently functions as an Auditor with an Insurance Company in Lagos Nigeria.</p>
@@ -45,7 +54,7 @@
 
   </div> 
 
-  <div class="featured-donate overlay-color" style="background-image: url('img/Pst-Kelvin/IMG-20190607-WA0038.jpg');">
+  <div class="featured-donate">
     
     <div class="container">
       <div class="row">

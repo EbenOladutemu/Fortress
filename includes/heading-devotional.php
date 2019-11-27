@@ -6,9 +6,13 @@
       </div>
     </div> -->
     <div class="block-30 no-overlay item" style="background-image: url('img/Random/20190609113610__MG_9570.jpg');">
-      <div>
-        <heading-tag></heading-tag>
-      </div>
+      <section class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-7 text-center">
+            <h2 class="heading">Our Devotional</h2>
+          </div>
+        </div>
+      </section>
     </div>
     <!-- <div class="block-30 no-overlay item" style="background-image: url('img/Random/20190519103013__MG_8533.jpg');">
       <div>

@@ -2,17 +2,17 @@
   <footer class="footer">
     <div class="container">
       <div class="row mb-5">
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-6 col-lg-5">
           <h3 class="heading-section">About Us</h3>
           <p class="mb-5">We are training, equipping and mobilising men to discover, develop and deploy their graces to fulfil God’s agenda for their lives. We are committed to the teaching and practice of God’s present truth in its progressive state. Our ultimate dream is to make ready a people prepared for the Lord.<br>          
           </p>
           <p><a href="workforce" class="btn btn-primary px-4 py-3">Workforce</a></p>
         </div>
-        <div class="col-md-6 col-lg-4">
+        <!-- <div class="col-md-6 col-lg-4">
           <h3 class="heading-section">Elixir of Life</h3>
           <div class="block-21 d-flex mb-4">
             <figure class="mr-3">
-              <a href=""><img src="img/Random/20190609114434__MG_9583.jpg" alt="" class="img-fluid"></a>
+              <a href="#"><img src="img/Random/20190609114434__MG_9583.jpg" alt="" class="img-fluid"></a>
             </figure>
             <div class="text">
               <h3 class="heading"><a href="#">God's Love</a></h3>
@@ -20,15 +20,13 @@
                 <div><span class="icon-calendar"></span> Today. 
                   <?php date_default_timezone_set("Africa/Lagos"); echo date('l, M jS Y'); ?>
                 </div>
-                <!-- <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                <div><a href="#"><span class="icon-chat"></span> 19</a></div> -->
               </div>
             </div>
           </div>
 
           <div class="block-21 d-flex mb-4">
             <figure class="mr-3">
-              <a href=""><img src="img/Pst-Jumoke/20180805114949_IMG_7457.jpg" alt="" class="img-fluid"></a>
+              <a href="#"><img src="img/Pst-Jumoke/20180805114949_IMG_7457.jpg" alt="" class="img-fluid"></a>
             </figure>
             <div class="text">
               <h3 class="heading"><a href="#">Patience</a></h3>
@@ -42,7 +40,7 @@
 
           <div class="block-21 d-flex mb-4">
             <figure class="mr-3">
-              <a href=""><img src="img/Pst-Desmond/IMG_20190522_191301.jpg" alt="" class="img-fluid"></a>
+              <a href="#"><img src="img/Pst-Desmond/IMG_20190522_191301.jpg" alt="" class="img-fluid"></a>
             </figure>
             <div class="text">
               <h3 class="heading"><a href="#">Self-Control</a></h3>
@@ -53,8 +51,8 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
+        </div> -->
+        <div class="col-md-6 col-lg-5 offset-2">
           <div class="block-23">
             <h3 class="heading-section">Contact Info</h3>
               <ul>
@@ -89,7 +87,7 @@
       <div class="row pt-5">
         <div class="col-md-12 text-center">
           <p id="para">
-            The Fortress Int'l Church &copy;<script>document.write(new Date().getFullYear());</script>. All rights reserved. | Developed with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://eben.com.ng" target="_blank" class="text-primary" title="Ebenezer Oladutemu" style="color: #6dbd4e!important">Eben</a>
+            The Fortress Int'l Church &copy;<script>document.write(new Date().getFullYear());</script>. All rights reserved. | Krafted with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://eben.com.ng" target="_blank" class="text-primary" title="Ebenezer Oladutemu" style="color: #6dbd4e!important">Eben</a>
           </p>
         </div>
       </div>
@@ -120,6 +118,7 @@
   <!-- <script src="js/google-map.js"></script> -->
   <script src="js/main.js"></script>
   <script src="js/vue.js"></script>
+  <!-- <script src="js/pagination.js"></script> -->
   <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
 
   <script src="js/vuescripts.js"></script>
@@ -130,7 +129,7 @@
       items:1,
       autoplay:true,
       animateOut: 'fadeOut',
-      autoplayTimeout:10000
+      autoplayTimeout:5000
       });
   </script>
 
