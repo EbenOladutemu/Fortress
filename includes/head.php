@@ -36,6 +36,7 @@
     <meta property="og:type" content="">
     
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:300,400,500|Poppins:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,500|Poppins:700" rel="stylesheet">
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">

@@ -303,7 +303,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: inherit;
+  font-family: 'Playfair Display', serif;
   font-weight: 500;
   line-height: 1.2;
   color: inherit; }
@@ -7256,10 +7256,10 @@ a.text-dark:hover, a.text-dark:focus {
     border: 1px solid #dee2e6 !important; } }
 
 body {
-  font-family: "Playfair Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   background: #fff;
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 31px;
   font-weight: 300; }
 
 a {
@@ -8273,7 +8273,7 @@ textarea.form-control {
       padding: 40px; } }
   .block-7 .heading {
     font-size: 48px;
-    line-height: 1;
+    line-height: 64px;
     margin: 0;
     padding: 0; }
   .block-7 .heading-2 {
@@ -8713,7 +8713,7 @@ textarea.form-control {
     border-radius: 0;
     border: 2px solid transparent;
     font-size: 14px;
-    letter-spacing: .2em;
+    letter-spacing: .1em;
     text-transform: uppercase;
     color: #999999;
     -webkit-box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.2);
