@@ -12,15 +12,6 @@
         </div>
       </section>
     </div>
-    <div class="block-30 overlay-header item" style="background-image: url('img/Pst-Kelvin/20190602105457__MG_9144.jpg');">
-      <section class="container">
-        <div class="row align-items-center justify-content-center">
-          <div class="col-md-7 text-center">
-            <h2 class="heading font-adj">Articles & e-Books</h2>
-          </div>
-        </div>
-      </section>
-    </div>
   </div>
 </div>
 
