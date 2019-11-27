@@ -9,24 +9,5 @@
         </div>
       </section>
     </div>
-    <div class="block-30 no-overlay item" style="background-image: url('img/Random/20190609113336__MG_9563.jpg');">
-      <section class="container">
-        <div class="row align-items-center justify-content-center">
-          <div class="col-md-7 text-center">
-            <h2 class="heading">Get Our Messages</h2>
-          </div>
-        </div>
-      </section>
-    </div><!-- 
-    <div class="block-30 no-overlay item" style="background-image: url('img/Random/20190519103013__MG_8533.jpg');">
-      <div>
-        <heading-tag></heading-tag>
-      </div>
-    </div>
-    <div class="block-30 no-overlay item" style="background-image: url('img/Random/20190609114434__MG_9583.jpg');">
-      <div>
-        <heading-tag></heading-tag>
-      </div>
-    </div> -->
   </div>
 </div>
