@@ -87,7 +87,7 @@
       <div class="row pt-5">
         <div class="col-md-12 text-center">
           <p id="para">
-            The Fortress Int'l Church &copy;<script>document.write(new Date().getFullYear());</script>. All rights reserved. | Krafted with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://eben.com.ng" target="_blank" class="text-primary" title="Ebenezer Oladutemu" style="color: #6dbd4e!important">Eben</a>
+            The Fortress Int'l Church &copy;<script>document.write(new Date().getFullYear());</script>. All rights reserved. | Crafted with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://eben.com.ng" target="_blank" class="text-primary" title="Eben Web Krafts" style="color: #6dbd4e!important">Eben</a>
           </p>
         </div>
       </div>
@@ -131,21 +131,6 @@
       animateOut: 'fadeOut',
       autoplayTimeout:5000
       });
-  </script>
-
-  <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 6.616865, lng: 3.508072},
-          zoom: 8
-        });
-        var marker = new google.maps.Marker({
-          position: {lat: 6.616865, lng: 3.508072},
-          map: map,
-          title: 'Hello World!'
-        });  
-      }
   </script>
     
   </body>
