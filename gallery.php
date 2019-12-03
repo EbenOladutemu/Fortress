@@ -3,7 +3,7 @@
 <?php include 'includes/nav-gallery.php';?>
 <div class="block-31" style="position: relative;" id="heading-component-8">
   <div id="sync" class="owl-carousel loop-block-31 block-30 item" data-stellar-background-ratio="0.5">
-    <div class="block-30 overlay-header item" style="background-image: url('img/Pst-Desmond/20190526111822__MG_8946.jpg');">
+    <div class="block-30 overlay-header item" style="background-image: url('img/Random/20190929103950__MG_3456.jpg');">
       <section class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-7 text-center">
@@ -16,6 +16,7 @@
 </div>
  
 <div class="site-section">
+  <h2 class="text-center">GALLERY</h2>
   <div class="container-fluid pad-left-right-15">
     <div class="row no-gutters">
       <div class="col-md-4">

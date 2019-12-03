@@ -5,7 +5,7 @@
 <!-- Hero Images and text -->
 <div class="block-31" style="position: relative;" id="heading-component-2">
   <div id="sync" class="owl-carousel loop-block-31 block-30 item" data-stellar-background-ratio="0.5">
-    <div class="block-30 overlay-header item" style="background-image: url('img/Pst-Jumoke/20180624112740_IMG_5062.jpg');">
+    <div class="block-30 overlay-header item" style="background-image: url('img/Random/20191201112121__MG_4641.jpg');">
       <section class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-7 text-center">

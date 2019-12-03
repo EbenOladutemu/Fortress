@@ -11,7 +11,7 @@
 </style>
 <div class="block-31" style="position: relative;" id="heading-component">
   <div id="sync" class="owl-carousel owl-theme loop-block-31 block-30 item" data-stellar-background-ratio="0.5">
-    <div class="block-30 overlay-header item" style="background-image: url('img/Pst-Desmond/20190609111411__MG_9523.jpg');">
+    <div class="block-30 overlay-header item" style="background-image: url('img/Random/20190929103851__MG_3451.jpg');">
       <section class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-7 text-center" style="padding-top:270px">
@@ -41,7 +41,7 @@
         </div>
       </section>
     </div>
-    <div class="block-30 overlay-header item" style="background-image: url('img/Random/20190519113649__MG_8577.jpg');">
+    <div class="block-30 overlay-header item" style="background-image: url('img/Pst-Desmond/20190609111411__MG_9523.jpg');">
       <section class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-7 text-center" style="padding-top:270px">
