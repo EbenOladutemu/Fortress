@@ -13,7 +13,7 @@
           </p>
         </div>
         <div class="col-md-5" style="float: right;">
-          <img src="img/Random/20190505112825__MG_8313.jpg" alt="Desmond Oladimeji " class="img-fluid">
+          <img src="img/Random/20191201104835__MG_4615.jpg" alt="Desmond Oladimeji " class="img-fluid">
         </div>
       </div>
     </div>

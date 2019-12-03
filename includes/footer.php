@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="container">
       <div class="row mb-5">
-        <div class="col-md-6 col-lg-5">
+        <div class="col-md-6 col-lg-6">
           <h3 class="heading-section">About Us</h3>
           <p class="mb-5">We are training, equipping and mobilising men to discover, develop and deploy their graces to fulfil God’s agenda for their lives. We are committed to the teaching and practice of God’s present truth in its progressive state. Our ultimate dream is to make ready a people prepared for the Lord.<br>          
           </p>
@@ -52,7 +52,7 @@
             </div>
           </div>
         </div> -->
-        <div class="col-md-6 col-lg-5 offset-2">
+        <div class="col-md-6 col-lg-6">
           <div class="block-23">
             <h3 class="heading-section">Contact Info</h3>
               <ul>

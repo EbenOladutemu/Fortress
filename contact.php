@@ -38,10 +38,15 @@
           </div>
         </form>
       </div> 
-      <div class="col-md-6" id="map" style="position: relative;"></div>
+      <div class="col-md-6"style="position: relative;">
+        <!-- For large screen -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7927.9387797714635!2d3.3562853214866872!3d6.525549840479327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c4d1087eeb7%3A0xe9f0df3a4f2efe52!2s51%20Ikorodu%20Roadd%2C%20Fadeyi%2C%20Lagos!5e0!3m2!1sen!2sng!4v1575389391349!5m2!1sen!2sng" width="600" height="500" frameborder="0" style="border:0;" allowfullscreen="" class="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block"></iframe>
+
+        <!-- For phones and small screens -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7927.9387797714635!2d3.3562853214866872!3d6.525549840479327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c4d1087eeb7%3A0xe9f0df3a4f2efe52!2s51%20Ikorodu%20Roadd%2C%20Fadeyi%2C%20Lagos!5e0!3m2!1sen!2sng!4v1575389391349!5m2!1sen!2sng" width="330" height="450" frameborder="0" style="border:0;" allowfullscreen="" class="d-block d-sm-none d-none d-sm-block d-md-none"></iframe>
+      </div>
     </div>
   </div>
 </div>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNyzBbwa4Rf3rdTkihYMSxLePJDePGo_c&callback=initMap"></script>
 
 <?php include 'includes/footer.php';?>
