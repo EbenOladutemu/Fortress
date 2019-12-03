@@ -83,9 +83,9 @@
         </a>
       </div>
       <div class="col-md-4">
-        <a href="img/Pst-Kelvin/20190512114722__MG_8446.jpg" class="image-popup img-hover">
+        <a href="img/Random/20191103103450__MG_3947.jpg" class="image-popup img-hover">
           <span class="icon icon-search"></span>
-          <img src="img/Pst-Kelvin/20190512114722__MG_8446.jpg" alt="The Fortress Int'l Church" class="img-fluid" style="transform: rotate(-90deg);">
+          <img src="img/Random/20191103103450__MG_3947.jpg" alt="The Fortress Int'l Church" class="img-fluid" style="transform: rotate(-90deg);">
         </a>
       </div>
       <div class="col-md-4">
@@ -111,6 +111,44 @@
         <a href="img/Random/20190519113649__MG_8577.jpg" class="image-popup img-hover">
           <span class="icon icon-search"></span>
           <img src="img/Random/20190519113649__MG_8577.jpg" alt="The Fortress Int'l Church" class="img-fluid">
+        </a>
+      </div>
+
+      <div class="col-md-4">
+        <a href="img/Random/20190915113211__MG_2055.jpg" class="image-popup img-hover">
+          <span class="icon icon-search"></span>
+          <img src="img/Random/20190915113211__MG_2055.jpg" alt="The Fortress Int'l Church" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="img/Random/20190926203432__MG_2375_1.jpg" class="image-popup img-hover">
+          <span class="icon icon-search"></span>
+          <img src="img/Random/20190926203432__MG_2375_1.jpg" alt="The Fortress Int'l Church" class="img-fluid">
+        </a>
+      </div>
+
+      <div class="col-md-4">
+        <a href="img/Random/20191201104835__MG_4615.jpg" class="image-popup img-hover">
+          <span class="icon icon-search"></span>
+          <img src="img/Random/20191201104835__MG_4615.jpg" alt="The Fortress Int'l Church" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="img/Random/20190929110632__MG_3526.jpg" class="image-popup img-hover">
+          <span class="icon icon-search"></span>
+          <img src="img/Random/20190929110632__MG_3526.jpg" alt="The Fortress Int'l Church" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="img/Random/20191103103642__MG_3955.jpg" class="image-popup img-hover">
+          <span class="icon icon-search"></span>
+          <img src="img/Random/20191103103642__MG_3955.jpg" alt="The Fortress Int'l Church" class="img-fluid" style="transform: rotate(-90deg);">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="img/Random/20191006113901__MG_3895.jpg" class="image-popup img-hover">
+          <span class="icon icon-search"></span>
+          <img src="img/Random/20191006113901__MG_3895.jpg" alt="The Fortress Int'l Church" class="img-fluid">
         </a>
       </div>
     </div>
