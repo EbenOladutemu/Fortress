@@ -1,3 +1,7 @@
+<?php require 'db.php';
+$fecth = mysqli_query($db, "SELECT * FROM messages WHERE status = 'publish' ORDER BY id DESC LIMIT 0, 3");
+$fecth2 = mysqli_query($db, "SELECT * FROM messages WHERE status = 'publish' ORDER BY id DESC LIMIT 3, 100");
+?>
 <title>The Fortress International Church - Messages</title>
 <?php include 'includes/head.php';?>
 <?php include 'includes/nav-messages.php';?>
@@ -43,32 +47,25 @@
         <h2 class="heading text-center text-bold">Audio Messages</h2>
       </div>
     </div>
-
     <div class="row">
+            <?php
+                while ($row2=mysqli_fetch_array($fecth)) {
+                  $id = $row2['id'];
+                  $b = $row2['msg_title'];
+                  $c = $row2['msg_pics'];
+                  $d = $row2['msg_name'];
+            ?>
       <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
         <div class="post-entry">
-          <img src="img/messages/THE 7 FOLD RESTORATION.jpg" alt="THE 7 FOLD RESTORATION" class="img-fluid">
-          <a href="https://drive.google.com/uc?authuser=0&id=16_sBy-XZN9CPi1wNfSaP-bqYoekDPqvi&export=download" class="mb-3 img-wrap"><span class="date border-tl-download"><i class="fa fa-download"></i></span></a>
-          <h3>THE 7 FOLD RESTORATION</h3>
+          <img src="admin/pages/messages_pics/<?php echo $c?>" alt="<?php echo $c?>" class="img-fluid">
+          <a href="<?php echo $d?>" class="mb-3 img-wrap"><span class="date border-tl-download"><i class="fa fa-download"></i></span></a>
+          <h3><?php echo $b;?></h3>
           <!-- <p>Description</p> -->
         </div>
       </div>
-      <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
-        <div class="post-entry">
-          <img src="img/messages/DON'T SETTLE FOR LESS.jpg" alt="DON'T SETTLE FOR THESE" class="img-fluid">
-          <a href="https://drive.google.com/uc?authuser=0&id=14mtcHzf3VRWn1lnDlQ4mdBK3MBgjVuX9&export=download" class="mb-3 img-wrap"><span class="date border-tl-download"><i class="fa fa-download"></i></span></a>
-          <h3>DON'T SETTLE FOR THESE</h3>
-          <!-- <p>Description</p> -->
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
-        <div class="post-entry">
-          <img src="img/messages/EMBRACING INSPIRED LIVING.jpg" alt="EMBRACING INSPIRED LIVING" class="img-fluid">
-          <a href="https://drive.google.com/uc?authuser=0&id=1B7BYGHx1PRW4S3w1RxmPmLk9sFwJO-Y2&export=download" class="mb-3 img-wrap"><span class="date border-tl-download"><i class="fa fa-download"></i></span></a>
-          <h3>EMBRACING INSPIRED LIVING</h3>
-          <!-- <p>Description</p> -->
-        </div>
-      </div>
+      <?php
+    }
+    ?>
     </div>
   </div>
 
@@ -120,126 +117,26 @@
               <h5 class="text-center">4 IMPORTANT VIRTUES</h5>
             </div>
           </div> -->
+           <?php
+            while ($row2=mysqli_fetch_array($fecth2)) {
+              $id = $row2['id'];
+              $b2 = $row2['msg_title'];
+              $c2 = $row2['msg_pics'];
+              $d2 = $row2['msg_name'];
+            ?>
           <div class="card fundraise-item">
             <div class="post-entry">
-              <img src="img/messages/I COME IN THE NAME OF THE LORD.jpg" alt="I COME IN THE NAME OF THE LORD" class="img-fluid">
-              <a href="https://drive.google.com/uc?authuser=0&id=189di0SyRKiGybVnzvnOzps6pXXLAYwL6&export=download" class="mb-3 img-wrap"><span class="date border-tl-download"><i class="fa fa-download"></i></span></a>
+                <img src="admin/pages/messages_pics/<?php echo $c2?>" alt="<?php echo $c?>" class="img-fluid">
+              <a href="<?php echo $d2?>" class="mb-3 img-wrap"><span class="date border-tl-download"><i class="fa fa-download"></i></span></a>
             </div>
             <div class="card-body">
-              <h5 class="text-center">I COME IN THE NAME OF THE LORD</h5>
+              <h5 class="text-center"><?php echo $b2;?></h5>
             </div>
           </div>
-          <!-- <div class="card fundraise-item">
-            <div class="post-entry">
-              <img src="img/messages/I AM BATTLE READY.jpg" alt="I AM BATTLE READY" class="img-fluid">
-              <a href="#" class="mb-3 img-wrap"><span class="date border-tl-download"><i class="fa fa-download"></i></span></a>
-            </div>
-            <div class="card-body">
-              <h5 class="text-center">I AM BATTLE READY</h5>
-            </div>
-          </div> -->
-          <div class="card fundraise-item">
-            <div class="post-entry">
-              <img src="img/messages/THE HIGH COST OF LOW LIVING.jpg" alt="THE HIGH COST OF LOW LIVING" class="img-fluid">
-              <a href="https://drive.google.com/uc?authuser=0&id=19lD8sH2PxeI0oaQ9nbwsmWg4NKxEiaq2&export=download" class="mb-3 img-wrap"><span class="date border-tl-download"><i class="fa fa-download"></i></span></a>
-            </div>
-            <div class="card-body">
-              <h5 class="text-center">THE HIGH COST OF LOW LIVING</h5>
-            </div>
-          </div>
-
-          <div class="card fundraise-item">
-            <div class="post-entry">
-              <img src="img/messages/REAL WEALTH.jpg" alt="REAL WEALTH" class="img-fluid">
-              <a href="#" class="mb-3 img-wrap"><span class="date border-tl-download"><i class="fa fa-download"></i></span></a>
-            </div>
-            <div class="card-body">
-              <h5 class="text-center">HOW TO INHERIT REAL WEALTH-PART ONE</h5>
-            </div>
-          </div>
-          <div class="card fundraise-item">
-            <div class="post-entry">
-              <img src="img/messages/REAL WEALTH.jpg" alt="REAL WEALTH" class="img-fluid">
-              <a href="https://drive.google.com/uc?authuser=0&id=18-Fwm02SYCXZcbt46yHL1Yybli0kp-UX&export=download" class="mb-3 img-wrap"><span class="date border-tl-download"><i class="fa fa-download"></i></span></a>
-            </div>
-            <div class="card-body">
-              <h5 class="text-center">HOW TO INHERIT REAL WEALTH-PART TWO</h5>
-            </div>
-          </div>
-          <!-- <div class="card fundraise-item">
-            <div class="post-entry">
-              <img src="img/messages/HOW TO ACTIVATE THE WORD OF GOD.jpg" alt="HOW TO ACTIVATE THE WORD OF GOD" class="img-fluid">
-              <a href="#" class="mb-3 img-wrap"><span class="date border-tl-download"><i class="fa fa-download"></i></span></a>
-            </div>
-            <div class="card-body">
-              <h5 class="text-center">HOW TO ACTIVATE THE WORD OF GOD</h5>
-            </div>
-          </div> -->
-          <div class="card fundraise-item">
-            <div class="post-entry">
-              <img src="img/messages/HE WILL FINISH WHAT HE STARTED.jpg" alt="HE WILL FINISH WHAT HE STARTED" class="img-fluid">
-              <a href="https://drive.google.com/uc?authuser=0&id=17oKv10ogkSJbLMMPwUUe2ISSY-B-ejfx&export=download" class="mb-3 img-wrap"><span class="date border-tl-download"><i class="fa fa-download"></i></span></a>
-            </div>
-            <div class="card-body">
-              <h5 class="text-center">HE WILL FINISH WHAT HE STARTED</h5>
-            </div>
-          </div>
-
-          <div class="card fundraise-item">
-            <div class="post-entry">
-              <img src="img/messages/JOURNEY INTO GOD.jpg" alt="JOURNEY INTO GOD" class="img-fluid">
-              <a href="https://drive.google.com/uc?authuser=0&id=18ZO4HaYBcOcuK9GguUAHTV4Yuh9AklUQ&export=download" class="mb-3 img-wrap"><span class="date border-tl-download"><i class="fa fa-download"></i></span></a>
-            </div>
-            <div class="card-body">
-              <h5 class="text-center">JOURNEY INTO GOD</h5>
-            </div>
-          </div>
-          <div class="card fundraise-item">
-            <div class="post-entry">
-              <img src="img/messages/IT COMES WITH A CALLING.jpg" alt="IT COMES WITH A CALLING" class="img-fluid">
-              <a href="https://drive.google.com/uc?authuser=0&id=18IMxMC6p_UgkVxvOLvrefDsRzE1PjV8S&export=download" class="mb-3 img-wrap"><span class="date border-tl-download"><i class="fa fa-download"></i></span></a>
-            </div>
-            <div class="card-body">
-              <h5 class="text-center">IT COMES WITH A CALLING</h5>
-            </div>
-          </div>
-          <div class="card fundraise-item">
-            <div class="post-entry">
-              <img src="img/messages/STORM IS OVER.jpg" alt="MY STORM IS OVER" class="img-fluid">
-              <a href="https://drive.google.com/uc?authuser=0&id=163rhSVJtlFjVWFzHOwQl3C1tUuTSRaEr&export=download" class="mb-3 img-wrap"><span class="date border-tl-download"><i class="fa fa-download"></i></span></a>
-            </div>
-            <div class="card-body">
-              <h5 class="text-center">MY STORM IS OVER</h5>
-            </div>
-          </div>
-
-          <!-- <div class="card fundraise-item">
-            <div class="post-entry">
-              <img src="img/messages/PROVOKING YOUR RAIN.jpg" alt="PROVOKING YOUR RAIN" class="img-fluid">
-              <a href="#" class="mb-3 img-wrap"><span class="date border-tl-download"><i class="fa fa-download"></i></span></a>
-            </div>
-            <div class="card-body">
-              <h5 class="text-center">PROVOKING YOUR RAIN</h5>
-            </div>
-          </div> -->
-          <div class="card fundraise-item">
-            <div class="post-entry">
-              <img src="img/messages/REPOSITION YOURSELF.jpg" alt="REPOSITION YOURSELF" class="img-fluid">
-              <a href="https://drive.google.com/uc?authuser=0&id=199P8wL0WFl8rS_rmSkiFu2cV4p1mnMCk&export=download" class="mb-3 img-wrap"><span class="date border-tl-download"><i class="fa fa-download"></i></span></a>
-            </div>
-            <div class="card-body">
-              <h5 class="text-center">REPOSITION YOURSELF</h5>
-            </div>
-          </div>
-          <div class="card fundraise-item">
-            <div class="post-entry">
-              <img src="img/messages/HE STILL MOVES MOUNTAINS.jpg" alt="HE STILL MOVES MOUNTAINS" class="img-fluid">
-              <a href="https://drive.google.com/uc?authuser=0&id=17l7u1ITDDIoXZ9lmg6sbkjM26dsBRZNl&export=download" class="mb-3 img-wrap"><span class="date border-tl-download"><i class="fa fa-download"></i></span></a>
-            </div>
-            <div class="card-body">
-              <h5 class="text-center">HE STILL MOVES MOUNTAINS</h5>
-            </div>
-          </div>
+          <?php
+        }
+          ?>
+          
         </div>
       </div>
     </div>
