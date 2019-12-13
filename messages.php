@@ -57,7 +57,7 @@ $fecth2 = mysqli_query($db, "SELECT * FROM messages WHERE status = 'publish' ORD
             ?>
       <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
         <div class="post-entry">
-          <img src="../admin/pages/messages_pics/<?php echo $c?>" alt="<?php echo $c?>" class="img-fluid">
+          <img src="admin/pages/messages_pics/<?php echo $c?>" alt="<?php echo $c?>" class="img-fluid">
           <a href="<?php echo $d?>" class="mb-3 img-wrap"><span class="date border-tl-download"><i class="fa fa-download"></i></span></a>
           <h3><?php echo $b;?></h3>
           <!-- <p>Description</p> -->
@@ -126,7 +126,7 @@ $fecth2 = mysqli_query($db, "SELECT * FROM messages WHERE status = 'publish' ORD
             ?>
           <div class="card fundraise-item">
             <div class="post-entry">
-                <img src="../admin/pages/messages_pics/<?php echo $c2?>" alt="<?php echo $c?>" class="img-fluid">
+                <img src="admin/pages/messages_pics/<?php echo $c2?>" alt="<?php echo $c?>" class="img-fluid">
               <a href="<?php echo $d2?>" class="mb-3 img-wrap"><span class="date border-tl-download"><i class="fa fa-download"></i></span></a>
             </div>
             <div class="card-body">

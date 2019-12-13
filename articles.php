@@ -36,8 +36,8 @@ $fecth3 = mysqli_query($db, "SELECT * FROM ebook WHERE status = 'publish' ORDER 
             ?>
       <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
         <div class="post-entry">
-          <a href="../admin/pages/ebook/<?php echo $d?>" class="mb-3 img-wrap">
-            <img src="../admin/pages/ebook_pics/<?php echo $c?>" alt="Image placeholder" class="img-fluid">
+          <a href="admin/pages/ebook/<?php echo $d?>" class="mb-3 img-wrap">
+            <img src="admin/pages/ebook_pics/<?php echo $c?>" alt="Image placeholder" class="img-fluid">
             <span class="date border-tr-download">Download</span>
           </a>
           <h3><a href="#"><?php echo $b?></a></h3>
