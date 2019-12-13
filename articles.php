@@ -1,6 +1,9 @@
 <title>The Fortress International Church - Articles & e-Books</title>
 <?php include 'includes/head.php';?>
-<?php include 'includes/nav-articles.php';?>
+<?php include 'includes/nav-articles.php';
+require 'db.php';
+$fecth3 = mysqli_query($db, "SELECT * FROM ebook WHERE status = 'publish' ORDER BY id DESC ");
+?>
 <div class="block-31 overl" style="position: relative;">
   <div id="sync" class="owl-carousel loop-block-31 block-30 item" data-stellar-background-ratio="0.5">
     <div class="block-30 overlay-header item" style="background-image: url('img/Pst-Kelvin/20190602105457__MG_9144.jpg');">
@@ -24,39 +27,27 @@
     </div>
 
     <div class="row">
+      <?php
+          while ($row2=mysqli_fetch_array($fecth3)) {
+            $id = $row2['id'];
+            $b = $row2['ebook_name'];
+            $c = $row2['ebook_pics'];
+            $d = $row2['ebook'];
+            ?>
       <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
         <div class="post-entry">
-          <a href="#" class="mb-3 img-wrap">
-            <img src="images/sermon.jpg" alt="Image placeholder" class="img-fluid">
+          <a href="../admin/pages/ebook/<?php echo $d?>" class="mb-3 img-wrap">
+            <img src="../admin/pages/ebook_pics/<?php echo $c?>" alt="Image placeholder" class="img-fluid">
             <span class="date border-tr-download">Download</span>
           </a>
-          <h3><a href="#">Faith</a></h3>
-          <p>Learn about Faith.</p>
+          <h3><a href="#"><?php echo $b?></a></h3>
+          <p>Learn about <?php echo $b?>.</p>
           <!-- <p><a href="#">Read More</a></p> -->
         </div>
       </div>
-      <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
-        <div class="post-entry">
-          <a href="#" class="mb-3 img-wrap">
-            <img src="images/sermon.jpg" alt="Image placeholder" class="img-fluid">
-            <span class="date border-tr-download">Download</span>
-          </a>
-          <h3><a href="#">Love</a></h3>
-          <p>Learn about Love.</p>
-          <!-- <p><a href="#">Read More</a></p> -->
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
-        <div class="post-entry">
-          <a href="#" class="mb-3 img-wrap">
-            <img src="images/sermon.jpg" alt="Image placeholder" class="img-fluid">
-            <span class="date border-tr-download">Download</span>
-          </a>
-          <h3><a href="#">Detour of Destiny</a></h3>
-          <p>Listen to the message on destiny.</p>
-          <!-- <p><a href="#">Read More</a></p> -->
-        </div>
-      </div>
+      <?php
+        }
+        ?>
     </div>
   </div>
 </div>
