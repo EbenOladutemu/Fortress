@@ -25,6 +25,7 @@
 </div>
 	
 <div class="featured-donate">
+  <h2 class="heading text-center text-bold">Our Leaders</h2>
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-8 order-lg-2 mb-3 mb-lg-0">
@@ -33,9 +34,8 @@
       <div class="col-lg-6 pr-lg-5">
         <span class="mb-3 d-block">Meet our Lead Pastor</span>
         <h2>Desmond Oladimeji</h2>
-        <p class="mb-3">Pastor Desmond Oladimeji an Apostle by calling, a passionate preacher, poet, author and conference speaker. He has a remarkable gift of touching deeply the heart of those who need to hear the truth in practical term laced with amazing humour. He operates in the apostolic and has an apostolic insight into the supernatural, with miracles attending to his meetings.</p>
-        <p class="mb-3">He is a graduate of History and International Relations. Adekunle Ajasin University, Ondo State. He met the Lord as a teenager and started ministry quite early. He pioneered a campus church in the year 2000, which he pastored for five years before he left the University. He held diverse leadership positions in the Joint Christian Campus Fellowship in his days in the university. He also led the JCCF  as their President in his final year. In his NYSC days, he was part of the Nigerian Christian Corpers Fellowship. He served as the Bible study Secretary in Ebonyi State. </p>
-        <p class="mb-3">He is greatly travelled across the length and breath of Nigeria as an itinerant preacher, who preaches and teaches the word of God with great apostolic demonstrations, healing and mighty deliverance attending to his ministry. He minister's with peculiar grace along words of knowledge and words of Wisdom, God honouring His words through him. He today sits as a mentor and pastor over other thriving pastors and ministries. He has put in about twenty years of his life ministering the word of God.</p>
+        <p class="mb-3">Pastor Desmond Oladimeji an Apostle by calling, a passionate preacher, poet, author and conference speaker. He has a remarkable gift of touching deeply the heart of those who need to hear the truth in practical terms laced with amazing humour. He operates in the apostolic and has an apostolic insight into the supernatural, with miracles attending to his meetings. He is a graduate of History and International Relations. Adekunle Ajasin University, Ondo State.
+        </p>
         <p>He is married to Pastor Jumoke Oladimeji, they are blessed with two sons. They live in Lagos from where they reach the world with the apostolic message of the kingdom.</p>
       </div>
       
@@ -88,7 +88,7 @@
 
 </div>
 
-<div class="featured-section overlay-color-2" style="background-image: url('img/Pst-Seun/IMG_20180210_144631.jpg');">
+<div class="featured-section">
   
   <div class="container">
     <div class="row">

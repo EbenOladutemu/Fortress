@@ -17,6 +17,7 @@
 </div>
 
 <div class="site-section">
+  <h2 class="heading text-center text-bold">Contact Us</h2>
   <div class="container">
     <div class="row block-9">
       <div class="col-md-6 pr-md-5">

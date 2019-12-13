@@ -12,13 +12,13 @@
      /*padding-bottom: 0px; */
   }
   .owl-stage-outer {
-      height: 385px!important;
+    /*height: 385px!important;*/
   }
   .owl-stage{
     padding-left: 0px!important;
   }
   .owl-nav{
-    bottom: -75px!important;
+    bottom: 45px!important;
   }
 </style>
 
@@ -36,11 +36,11 @@
   </div>
 </div>
 
-<div class="site-section bg-light">
+<div class="site-section">
   <div class="container">
     <div class="row mb-5">
       <div class="col-md-12">
-        <h2>Audio Messages</h2>
+        <h2 class="heading text-center text-bold">Audio Messages</h2>
       </div>
     </div>
 

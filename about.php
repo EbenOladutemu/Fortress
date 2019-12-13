@@ -5,7 +5,7 @@
 <!-- Hero Images and text -->
 <div class="block-31" style="position: relative;">
   <div id="sync" class="owl-carousel loop-block-31 block-30 item" data-stellar-background-ratio="0.5">
-    <div class="block-30 overlay-header item" style="background-image: url('img/Random/20191201112121__MG_4641.jpg');">
+    <div class="block-30 overlay-header item" style="background-image: url('img/Random/20191201112121__MG_4641.JPG');">
       <section class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-7 text-center">
@@ -19,6 +19,7 @@
 </div>
   
 <div class="site-section mb-5">
+  <h2 class="heading text-center text-bold">About Us</h2>
   <div class="container">
     <div class="row mb-5">
       <div class="col-md-6">

@@ -19,7 +19,7 @@
   <div class="container">
     <div class="row mb-5">
       <div class="col-md-12">
-        <h2>Articles</h2>
+        <h2 class="heading text-center text-bold">Articles</h2>
       </div>
     </div>
 

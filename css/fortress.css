@@ -47,6 +47,9 @@ a:hover .btn:hover .live-btn{
 .text-bold{
 	font-weight: bold!important;
 }
+.text-underline{
+	text-decoration: underline;
+}
 a:hover{
 	color: #6dbd4e!important;
 }

@@ -17,6 +17,7 @@
 </div>
   
 <div class="site-section mb-1">
+  <h2 class="heading text-center text-bold">Workforce</h2>
   <div class="mb-5">
     <div class="col-sm-9 col-md-8 col-lg-8 mx-auto">
       <div class="container-fluid">
@@ -111,7 +112,7 @@
 
             <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#teens">
               <a class="card-title">
-                TEENS CHURCH (THE SAFE HOUSE ) <i class="fa fa-plus float-right mt-5px"></i>
+                TEENS CHURCH (THE SAFE HOUSE) <i class="fa fa-plus float-right mt-5px"></i>
               </a>
             </div>
             <div id="teens" class="collapse" data-parent="#accordion" >
@@ -124,12 +125,12 @@
               </a>
             </div>
             <div id="youth" class="collapse" data-parent="#accordion" >
-              <div class="card-body">Youth are the hope of the future. In the Lighthouse, they have avenue to mingle with fellow young people and serve God.
+              <div class="card-body">Youths are the hope of the future. In the Lighthouse, they have avenue to mingle with fellow young people and serve God.
               </div>
             </div>
             <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#sisters">
               <a class="card-title">
-                SISTERS FELLOWSHIP (DAUGHTERS OF VIRTUE:) <i class="fa fa-plus float-right mt-5px"></i>
+                SISTERS FELLOWSHIP (DAUGHTERS OF VIRTUE) <i class="fa fa-plus float-right mt-5px"></i>
               </a>
             </div>
             <div id="sisters" class="collapse" data-parent="#accordion" >

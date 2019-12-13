@@ -56,9 +56,10 @@
           <div class="block-23">
             <h3 class="heading-section">Contact Info</h3>
               <ul>
-                <li><span class="icon icon-map-marker"></span>
+                <li>
+                  <a href="contact"><span class="icon icon-map-marker"></span>
                   <span class="text">51, Ikorodu Road, Beside Iyare Motors, By Total Filling Station Fadeyi, Lagos, Nigeria
-                  </span>
+                  </span></a>
                 </li>
                 <li>
                   <a href="tel:"><span class="icon icon-phone"></span>
@@ -74,9 +75,9 @@
                   <span class="text">Sundays: 9am – 11:30am<br>Wednesdays: 6pm – 7:30pm</span>
                 </li>
                 <li style="display: inline-flex;">
-                  <a href=""><i class="fab fa-facebook-f fa-2x ml-5"></i></a>
-                  <a href=""><i class="fab fa-twitter fa-2x ml-4"></i></a>
-                  <a href=""><i class="fab fa-instagram fa-2x ml-4"></i></a>
+                  <a href="https://fb.com/thefortresschurch" target="_blank"><i class="fab fa-facebook-f fa-2x ml-5"></i></a>
+                  <a href="https://twitter.com/thefortressCh" target="_blank"><i class="fab fa-twitter fa-2x ml-4"></i></a>
+                  <a href="https://instagram.com/thefortresschurch" target="_blank"><i class="fab fa-instagram fa-2x ml-4"></i></a>
                 </li>
               </ul>
             </div>
