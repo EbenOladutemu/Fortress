@@ -1,4 +1,8 @@
-  
+  <?php
+  require './db.php';
+  $fecth5 = mysqli_query($db, "SELECT * FROM contact WHERE id = 1");
+$f6 = mysqli_fetch_assoc($fecth5);
+?>
   <footer class="footer">
     <div class="container">
       <div class="row mb-5">
@@ -57,26 +61,26 @@
             <h3 class="heading-section">Contact Info</h3>
               <ul>
                 <li><span class="icon icon-map-marker"></span>
-                  <span class="text">51, Ikorodu Road, Beside Iyare Motors, By Total Filling Station Fadeyi, Lagos, Nigeria
+                  <span class="text"><?php echo $f6['address']?>
                   </span>
                 </li>
                 <li>
                   <a href="tel:"><span class="icon icon-phone"></span>
-                    <span class="text"></span>
+                    <span class="text"><?php echo $f6['phone']?></span>
                   </a>
                 </li>
                 <li>
                   <a href="mailto:enquiries@thefortresschurch.com"><span class="icon icon-envelope"></span>
-                    <span class="text">enquiries@thefortresschurch.com</span>
+                    <span class="text"><?php echo $f6['email']?></span>
                   </a>
                 </li>
                 <li><i class="icon icon-clock-o"></i>
-                  <span class="text">Sundays: 9am – 11:30am<br>Wednesdays: 6pm – 7:30pm</span>
+                  <span class="text"><?php echo $f6['weekly_prog']?></span>
                 </li>
                 <li style="display: inline-flex;">
-                  <a href=""><i class="fab fa-facebook-f fa-2x ml-5"></i></a>
-                  <a href=""><i class="fab fa-twitter fa-2x ml-4"></i></a>
-                  <a href=""><i class="fab fa-instagram fa-2x ml-4"></i></a>
+                  <a href="<?php echo $f6['facebook']?>"><i class="fab fa-facebook-f fa-2x ml-5"></i></a>
+                  <a href="<?php echo $f6['twitter']?>"><i class="fab fa-twitter fa-2x ml-4"></i></a>
+                  <a href="<?php echo $f6['instagram']?>"><i class="fab fa-instagram fa-2x ml-4"></i></a>
                 </li>
               </ul>
             </div>
